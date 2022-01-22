@@ -9,7 +9,6 @@ function App() {
     console.log(fff)
   }
 
-
   return (
     <div className="App">
       <input ref={fff} value={name} onChange={e => setName(e.target.value)}/>
