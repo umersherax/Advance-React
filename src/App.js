@@ -1,5 +1,7 @@
 import React from "react";
-import Login from "./components/signup/Login";
+import {Login, Register} from "./components/signup";
+import Dashboar from "./components/dashboard";
+
 import {
   BrowserRouter,
   Routes,
@@ -12,6 +14,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/dashboard" element={<Dashboar />} />
         </Routes>
       </BrowserRouter>
     </div>

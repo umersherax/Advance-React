@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 
 export default function useForm() {
     const inititalValues = {
+        name: '',
         email : '',
         password : ''
     }
